@@ -1,0 +1,1354 @@
+<table class="symbols lr-table">
+    <colgroup span="1"></colgroup>
+    <colgroup class="t" span="8"></colgroup>
+    <colgroup class="nt" span="10"></colgroup>
+    <thead>
+        <tr>
+            <th>State</th>
+            <th><b>minus</b></th>
+            <th><b>plus</b></th>
+            <th><b>mul</b></th>
+            <th><b>div</b></th>
+            <th><b>lp</b></th>
+            <th><b>rp</b></th>
+            <th><b>number</b></th>
+            <th><u>$</u></th>
+            <th><i>expr</i></th>
+            <th><i>sum</i></th>
+            <th><i>product</i></th>
+            <th><i>value</i></th>
+            <th><i>addsub</i></th>
+            <th><i>prodvalue</i></th>
+            <th><i>parensum</i></th>
+            <th><i>muldiv</i></th>
+            <th><i>prodterm</i></th>
+            <th><i>parenprod</i></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">0</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>shift(9)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>shift(7)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td>
+                <ul>
+                    <li>1</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>2</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>3</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>4</li>
+                </ul>
+            </td>
+            <td></td>
+            <td>
+                <ul>
+                    <li>5</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>8</li>
+                </ul>
+            </td>
+            <td></td>
+            <td>
+                <ul>
+                    <li>6</li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">1</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>accept</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td class="">
+                <ul>
+                    <li>shift(11)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>shift(12)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>expr</i> -> <i>sum</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <ul>
+                    <li>10</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodvalue</i> -> <i>product</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodvalue</i> -> <i>product</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodvalue</i> -> <i>product</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodvalue</i> -> <i>product</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>expr</i> -> <i>product</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">4</th>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodvalue</i> -> <i>value</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodvalue</i> -> <i>value</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodvalue</i> -> <i>value</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodvalue</i> -> <i>value</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>expr</i> -> <i>value</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">5</th>
+            <td class="">
+                <ul>
+                    <li>shift(14)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>shift(12)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodterm</i> -> <i>prodvalue</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodterm</i> -> <i>prodvalue</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <ul>
+                    <li>13</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">6</th>
+            <td></td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>shift(17)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>shift(16)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <ul>
+                    <li>15</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">7</th>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>value</i> -> <b>number</b>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>value</i> -> <b>number</b>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>value</i> -> <b>number</b>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>value</i> -> <b>number</b>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>value</i> -> <b>number</b>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>value</i> -> <b>number</b>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">8</th>
+            <td></td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodterm</i> -> <i>parensum</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodterm</i> -> <i>parensum</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">9</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>shift(9)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>shift(7)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td>
+                <ul>
+                    <li>18</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>20</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>19</li>
+                </ul>
+            </td>
+            <td></td>
+            <td>
+                <ul>
+                    <li>5</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>8</li>
+                </ul>
+            </td>
+            <td></td>
+            <td>
+                <ul>
+                    <li>6</li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">10</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>shift(9)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>shift(7)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <ul>
+                    <li>20</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>19</li>
+                </ul>
+            </td>
+            <td></td>
+            <td>
+                <ul>
+                    <li>21</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>8</li>
+                </ul>
+            </td>
+            <td></td>
+            <td>
+                <ul>
+                    <li>6</li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">11</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="conflict">
+                <ul>
+                    <li>shift(9)</li>
+                    <li>reduce(<i>addsub</i> -> <b>minus</b>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>addsub</i> -> <b>minus</b>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <ul>
+                    <li>22</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">12</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>addsub</i> -> <b>plus</b>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>addsub</i> -> <b>plus</b>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">13</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>shift(9)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>shift(7)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <ul>
+                    <li>20</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>19</li>
+                </ul>
+            </td>
+            <td></td>
+            <td>
+                <ul>
+                    <li>23</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>8</li>
+                </ul>
+            </td>
+            <td></td>
+            <td>
+                <ul>
+                    <li>6</li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">14</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="conflict">
+                <ul>
+                    <li>shift(9)</li>
+                    <li>reduce(<i>addsub</i> -> <b>minus</b>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>addsub</i> -> <b>minus</b>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <ul>
+                    <li>24</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">15</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>shift(9)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>shift(7)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <ul>
+                    <li>25</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td>
+                <ul>
+                    <li>26</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">16</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="conflict">
+                <ul>
+                    <li>shift(28)</li>
+                    <li>reduce(<i>muldiv</i> -> <b>div</b>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>muldiv</i> -> <b>div</b>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <ul>
+                    <li>27</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">17</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>muldiv</i> -> <b>mul</b>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>muldiv</i> -> <b>mul</b>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">18</th>
+            <td class="">
+                <ul>
+                    <li>shift(11)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>shift(12)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>shift(29)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <ul>
+                    <li>10</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">19</th>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodvalue</i> -> <i>value</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodvalue</i> -> <i>value</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodvalue</i> -> <i>value</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodvalue</i> -> <i>value</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodvalue</i> -> <i>value</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodvalue</i> -> <i>value</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">20</th>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodvalue</i> -> <i>product</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodvalue</i> -> <i>product</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodvalue</i> -> <i>product</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodvalue</i> -> <i>product</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodvalue</i> -> <i>product</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodvalue</i> -> <i>product</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">21</th>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>sum</i> -> <i>sum</i> <i>addsub</i> <i>prodvalue</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>sum</i> -> <i>sum</i> <i>addsub</i> <i>prodvalue</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodterm</i> -> <i>prodvalue</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodterm</i> -> <i>prodvalue</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>sum</i> -> <i>sum</i> <i>addsub</i> <i>prodvalue</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>sum</i> -> <i>sum</i> <i>addsub</i> <i>prodvalue</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">22</th>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>sum</i> -> <i>sum</i> <b>minus</b> <i>parensum</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>sum</i> -> <i>sum</i> <b>minus</b> <i>parensum</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>sum</i> -> <i>sum</i> <b>minus</b> <i>parensum</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>sum</i> -> <i>sum</i> <b>minus</b> <i>parensum</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">23</th>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>sum</i> -> <i>prodvalue</i> <i>addsub</i> <i>prodvalue</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>sum</i> -> <i>prodvalue</i> <i>addsub</i> <i>prodvalue</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodterm</i> -> <i>prodvalue</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodterm</i> -> <i>prodvalue</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>sum</i> -> <i>prodvalue</i> <i>addsub</i> <i>prodvalue</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>sum</i> -> <i>prodvalue</i> <i>addsub</i> <i>prodvalue</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">24</th>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>sum</i> -> <i>prodvalue</i> <b>minus</b> <i>parensum</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>sum</i> -> <i>prodvalue</i> <b>minus</b> <i>parensum</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>sum</i> -> <i>prodvalue</i> <b>minus</b> <i>parensum</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>sum</i> -> <i>prodvalue</i> <b>minus</b> <i>parensum</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">25</th>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>product</i> -> <i>prodterm</i> <i>muldiv</i> <i>value</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>product</i> -> <i>prodterm</i> <i>muldiv</i> <i>value</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>product</i> -> <i>prodterm</i> <i>muldiv</i> <i>value</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>product</i> -> <i>prodterm</i> <i>muldiv</i> <i>value</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>product</i> -> <i>prodterm</i> <i>muldiv</i> <i>value</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>product</i> -> <i>prodterm</i> <i>muldiv</i> <i>value</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">26</th>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>product</i> -> <i>prodterm</i> <i>muldiv</i> <i>parensum</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>product</i> -> <i>prodterm</i> <i>muldiv</i> <i>parensum</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>product</i> -> <i>prodterm</i> <i>muldiv</i> <i>parensum</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>product</i> -> <i>prodterm</i> <i>muldiv</i> <i>parensum</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>product</i> -> <i>prodterm</i> <i>muldiv</i> <i>parensum</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>product</i> -> <i>prodterm</i> <i>muldiv</i> <i>parensum</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">27</th>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>product</i> -> <i>prodterm</i> <b>div</b> <i>parenprod</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>product</i> -> <i>prodterm</i> <b>div</b> <i>parenprod</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>product</i> -> <i>prodterm</i> <b>div</b> <i>parenprod</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>product</i> -> <i>prodterm</i> <b>div</b> <i>parenprod</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>product</i> -> <i>prodterm</i> <b>div</b> <i>parenprod</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>product</i> -> <i>prodterm</i> <b>div</b> <i>parenprod</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">28</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>shift(9)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>shift(7)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <ul>
+                    <li>30</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>19</li>
+                </ul>
+            </td>
+            <td></td>
+            <td>
+                <ul>
+                    <li>31</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>8</li>
+                </ul>
+            </td>
+            <td></td>
+            <td>
+                <ul>
+                    <li>6</li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">29</th>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>parensum</i> -> <b>lp</b> <i>sum</i> <b>rp</b>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>parensum</i> -> <b>lp</b> <i>sum</i> <b>rp</b>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>parensum</i> -> <b>lp</b> <i>sum</i> <b>rp</b>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>parensum</i> -> <b>lp</b> <i>sum</i> <b>rp</b>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>parensum</i> -> <b>lp</b> <i>sum</i> <b>rp</b>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>parensum</i> -> <b>lp</b> <i>sum</i> <b>rp</b>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">30</th>
+            <td></td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodvalue</i> -> <i>product</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodvalue</i> -> <i>product</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>shift(32)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">31</th>
+            <td></td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodterm</i> -> <i>prodvalue</i>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>prodterm</i> -> <i>prodvalue</i>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">32</th>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>parenprod</i> -> <b>lp</b> <i>product</i> <b>rp</b>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>parenprod</i> -> <b>lp</b> <i>product</i> <b>rp</b>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>parenprod</i> -> <b>lp</b> <i>product</i> <b>rp</b>)</li>
+                </ul>
+            </td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>parenprod</i> -> <b>lp</b> <i>product</i> <b>rp</b>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>parenprod</i> -> <b>lp</b> <i>product</i> <b>rp</b>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td class="">
+                <ul>
+                    <li>reduce(<i>parenprod</i> -> <b>lp</b> <i>product</i> <b>rp</b>)</li>
+                </ul>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>

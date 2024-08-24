@@ -1,0 +1,2 @@
+State,minus,plus,parensum,muldiv,prodterm,parenprod
+11,,,,,shift(9)!!reduce(addsub##minus),
